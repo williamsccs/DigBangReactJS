@@ -50,7 +50,7 @@ const Calculadora = () => {
         <div className='insider'>
         <div className= 'row'>
             <p className ='p'>Monto Total</p>
-            <input type="text" className="input" placeholder="$" onChange={handleInput} value={monto}/>
+            <input type="text" pattern="[0-9]*" className="input" placeholder="$" value={monto} onChange={handleInput} />
         </div>        
         <Slider className = 'Slider'
             min={5000}
