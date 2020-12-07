@@ -12,7 +12,7 @@
     position: relative;
     height: 2vh;
     
-    width: 55vw;
+    width: 40vw;
     border-radius: 6px;
     touch-action: none;
     box-sizing: border-box;
@@ -33,8 +33,22 @@
       padding-bottom: 2vh;
       padding-top: 1vh;
   }
+  .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* background-color: blueviolet; */
+    align-items: center;
+    padding-bottom: 0vh;
+    padding-top: 0vh;
+}
   .insider{
       padding-top: 5vh;
+      /* background-color: red; */
+      margin-left: 10vw;
+      margin-right: 10vw;
   }
 
   .input {
@@ -58,12 +72,26 @@
   }
   .button1{
  background-color: #17aa8d ;
- color: white;
+ color: white; 
+    outline:0;
+    border:0;
+   
+    font-family: 'Ubuntu', sans-serif;
+    height: 5vh;
 }
+
+
 .button2{
     background-color: #0b548b;
     color: white;
+    outline:0;
+    border:0;
+    height: 5vh;
+    
    }
    .containerFinal{
-       background-color: #0b548b;
+       background-color: #00355d;
+       width: 60vw;
+       padding-left: -50vw;
+       
    }
