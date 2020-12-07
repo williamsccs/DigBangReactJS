@@ -29,14 +29,16 @@ const Calculadora = () => (
         <p className ='p'>24</p>
         </div>        
         
-        <div className= 'row'>
-        <p className ='p'>CUOTA FIJA POR MES</p>
-        <p className ='p'>$2,412.91</p>
+        <div className='containerFinal'>
+            <div className= 'row'>
+                <p className ='p'>CUOTA FIJA POR MES</p>
+                <p className ='p'>$2,412.91</p>
+            </div>
         </div>
         
         <div className= 'row'>
-            <button>Calcular</button>
-            <button>VER DETALLE CUOTA</button>
+            <button className='button1'>OBTENE CREDITO</button>
+            <button className='button2'>VER DETALLE CUOTA</button>
         </div>
         
         </div>

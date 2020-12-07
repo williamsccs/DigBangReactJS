@@ -56,3 +56,14 @@
   ::placeholder {
     color: white;
   }
+  .button1{
+ background-color: #17aa8d ;
+ color: white;
+}
+.button2{
+    background-color: #0b548b;
+    color: white;
+   }
+   .containerFinal{
+       background-color: #0b548b;
+   }
