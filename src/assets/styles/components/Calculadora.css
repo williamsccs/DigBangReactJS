@@ -1,0 +1,53 @@
+.Calculadora {
+    
+    background-color: #fae900;
+    color: rgb(12, 64, 206);
+    height:auto; 
+  }
+  
+  .Slider {
+    position: relative;
+    height: 2vh;
+    
+    width: 50vw;
+    border-radius: 6px;
+    touch-action: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: black;
+    margin: 0vh auto;
+    align-self: auto;
+  }
+
+  .row{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 10%;
+      padding-right: 10%;
+      background-color: blueviolet;
+      align-items: center;
+  }
+  .insider{
+      padding-top: 5vh;
+  }
+
+  .input {
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    display: inline-block;
+    
+    
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 30px;
+    
+    outline: none;
+    
+    width: 20vw;
+  }
+  
+  ::placeholder {
+    color: white;
+  }

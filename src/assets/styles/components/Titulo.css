@@ -1,0 +1,13 @@
+.Titulo {
+    align-items: center;
+    background: #8f57fd;
+    color: rgb(240, 17, 17);
+    margin: 0 auto;
+    padding: 1vh;
+    
+  }
+  .Titulo h1{
+      color: green;
+      text-align:center 
+      
+  }
