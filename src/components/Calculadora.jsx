@@ -10,28 +10,28 @@ const Calculadora = () => (
     <div className= 'Calculadora'>
         <div className='insider'>
         <div className= 'row'>
-            <p>Monto Total</p>
+            <p className ='p'>Monto Total</p>
             <input type="text" className="input" placeholder="$" />
         </div>        
         <Slider className = 'Slider'></Slider>
 
         <div className = 'row'>
-        <p>$5000</p>
-        <p>$50.000</p>
+        <p className ='p'>$5000</p>
+        <p className ='p'>$50.000</p>
         </div>
         <div className= 'row'>
-        <p>Plazo</p>
+        <p className ='p'>Plazo</p>
         <input type="text" className="input" placeholder="PLAZOS" />
         </div>        
         <Slider className = 'Slider'></Slider>
         <div className = 'row'>
-        <p>3</p>
-        <p>24</p>
+        <p className ='p'>3</p>
+        <p className ='p'>24</p>
         </div>        
         
         <div className= 'row'>
-        <p>CUOTA FIJA POR MES</p>
-        <p>$2,412.91</p>
+        <p className ='p'>CUOTA FIJA POR MES</p>
+        <p className ='p'>$2,412.91</p>
         </div>
         
         <div className= 'row'>
